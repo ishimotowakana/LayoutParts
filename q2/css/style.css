@@ -8,10 +8,16 @@
 
 .list {
   width: 200px;
-  margin: 30px;
+  margin-right: 60px;
   padding: 10px;
   background: #d2b48c;
   border-radius: 13px;  /* 角を丸くする */
-  outline: 10px  #655;  /* 要素の外側に輪郭を表示 */
+  outline: 10px   #655;  /* 要素の外側に輪郭を表示 */
   outline-style: solid;  /* 一本線を表す値 */
+  list-style: none;
+  box-shadow: 0 0 0 6px;
+}
+
+.list:last-child {
+  margin-right: 0px;
 }
